@@ -1,0 +1,16 @@
+{
+  "name": "codetaker56-site",
+  "version": "1.0.0",
+  "description": "beans / Codetaker56 personal portfolio",
+  "license": "ISC",
+  "author": "Codetaker56",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter server dev\" \"pnpm --filter client dev\"",
+    "build": "pnpm --filter client build && pnpm --filter server build",
+    "start": "pnpm --filter server start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

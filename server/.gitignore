@@ -1,0 +1,4 @@
+node_modules
+static/host.txt
+static/pgp.asc
+dist
